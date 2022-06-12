@@ -54,6 +54,7 @@ public class FillaBank {
             double total = 0;
             for (int i = 0; i < size; i++){
                 total = total + accountBalances[i];
+                System.out.println(accountNames[i] + "has $ " + accountBalances[i] + "in their account.");
             }
         }else if (userInput == -1) {
 
